@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Para o site ficar responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Perfil</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+  <body>
+    <!-- navbar-fixed-top = Fazer uma barra fixa no site e navbar-default= Para fazer aparecer a barra transparente -->
+    <nav class="navbar navbar-fixed-top navbar-default navbar-transparente">
+      <div class="container">
+        
+        <!-- header -->
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+                <span class="sr-only">alternar navegação</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+  
+          <a class="navbar-brand" href="index.html" style="color: #fff; font-family: Helvetica,Arial,sans-serif;">   
+
+            <i class="material-icons">home</i> 
+
+             
+          </a>
+      </div>
+
+        <!-- navbar -->
+
+        
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+            <ul class="nav navbar-nav navbar-right">
+          
+                <!-- Link para os Id's -->
+                <li><a id="link" href="#servicos">Sobre Mim</a></li>
+                <li><a id="link" href="#servicos2">Objetivo</a></li>
+    
+            </ul>
+          
+        </div>
+
+      </div> <!-- Esta fechando container -->
+    </nav> <!-- Esta fechando nav -->
+    
+
+      <div class="capa">
+        <div class="texto-capa">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h1>GABRIELA SILVA</h1>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br><br><br><br><br>
+      <a id="servicos"></a>
+      <br><br><br><br><br><br><br><br><br>
+    <section id="servicos">
+      <div class="container">
+        <div class="row"></div>
+          
+          <!-- Tabela 1-->
+          <div class="col-md-6">
+            
+           <h2>Sobre Mim</h2>
+            <p>Tenho 20 anos e sou formada em técnico de informática e estou me formando em Analise e Desenvolvimento de Sistemas.</p>
+             <p> Atualmente estou cursando este curso na Fatec Taubaté e realizando estágio na Prefeitura de Taubaté </p>
+          </div>
+
+          <!-- Tabela 2 -->
+          <div class="col-md-6">
+            <div class="row">
+
+              <div class="col-md-12">
+                 <img src="img/imagem.jpg" class="img-responsive"> 
+              </div> 
+
+          </div>
+        </div>
+
+
+      </div>
+      
+    </section>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <!-- Serviços 2 -->
+    <section id="servicos2">
+      <div class="container">
+        <div class="row"></div>
+          
+          <!-- Tabela 1-->
+          <div class="col-md-6">
+           <h2><a id="servicos"></a>Objetivo</h2>
+            <p>Gostaria de fazer parte da equipe de funcionários da empresa, tendo o objetivo de crescer profissionalmente na área de TI e de maneira produtiva. </p>
+             <p>Contribuindo para o desenvolvimento da organização como um todo.</p>
+          </div>
+
+          <!-- Tabela 2-->
+          <div class="col-md-6">
+
+            <div class="row">
+
+              <div class="col-md-12">
+                 <img src="img/imagem2.jpg" class="img-responsive"> 
+              </div> 
+              
+          </div>
+        </div>
+
+
+      </div>
+      
+    </section>
+
+    <!-- Rodape -->
+    <br><br><br><br><br>
+    <footer class="main-footer footer-landpage" id="rodape">
+        <div class="pull-right hidden-xs">
+          <div style="text-align: right">
+      
+          <strong>Curso de Análise e Desenvolvimento de Sistemas &nbsp;&nbsp;&nbsp;</strong> <br>
+          <strong>Desenvolvido por: Gabriela &nbsp;&nbsp;&nbsp;</strong><br>
+          </div>
+        </div>
+      
+        <strong>
+          &nbsp;&nbsp;&nbsp;Fatec Taubaté 
+          </strong> <br>
+          &nbsp;&nbsp;&nbsp;&copy; <?php echo date ('Y'); ?>. Todos os direitos reservados.
+      </footer>
+      
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+   
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

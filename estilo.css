@@ -1,0 +1,86 @@
+﻿body{
+
+	background: url('img/capa.jpg.jpg'); 
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+nav.navbar-transparente {
+	padding: 10px 0px;
+	/*Para definir a transparencia*/
+	background: rgba(0,0,0,0.6);
+	border: none;
+}
+
+.capa{
+	display: table;
+	width: 100%;
+
+}
+
+.texto-capa{
+	text-align: center;
+	color: #1C1C1C;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+#servicos {
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*display: table;
+	width: 100%;*/
+}
+
+#servicos2{
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	/*display: table;
+	width: 100%;*/
+}
+
+h1{
+	font-size: 100px; 
+	font-weight: 800;
+	/*Espaçamento do texto*/
+	letter-spacing: -0.05em;
+
+}
+
+h2{
+	font-size: 75px; 
+	font-weight: 500;
+	color: #1C1C1C;
+}
+
+p{
+	font-size: 25px; 
+	font-weight: 150;
+	color: #1C1C1C;
+
+}
+
+#link{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 20px; 
+	color: #fff;
+}
+
+/* Rodape */
+
+footer{
+	/*background: #1C1C1C;*/
+	padding: 20px 0px 20px 0px;
+	background: rgba(0,0,0,0.6);
+	border: none;
+}
+
+#rodape{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 13px; 
+	color: #fff;
+}
+
